@@ -1,0 +1,8 @@
+package p40;
+
+/*
+ * ¿Ã∏ß
+ */
+public class CharacterType {
+
+}
