@@ -28,11 +28,14 @@ public class Calc {
 	public int div(int x, int y) throws Exception {
 		
 		if(y < 0) {
+			// y가 음수일때 예외를 생성해서 div를 호출한 쪽으로 예외를 던진다. 
 			Exception e = new Exception ("y는 양수이어야 합니다.");
 			throw e;
 		} else if(y == 1){
+			// y가 1일때 예외를 생성해서 div를 호출한 쪽으로 예외를 던진다. 
 			throw new Exception("y는 1이 되면 안됩니다.");
 		}
+		
 		
 		int z = x / y;
 		
